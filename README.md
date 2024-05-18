@@ -15,7 +15,7 @@
 
 (2)py file;
 
-  It has the program for input a new channel ID to get details for additional channels and store them in the mysql and display in Streamlit application.
+  It has the program streamlit interface and for input a Query to get answers from mysql and display in Streamlit application.
 
 # ESSENTIAL INSTALL & IMPORT LIBRARIES:
 
@@ -42,16 +42,15 @@ STEP 4 : Takes the required details such as channel details, Video Ids, Video De
 STEP 5 : Load data After the transformation process, we transfer the data to local database(XAMPP) using SQLalchemy. 
 STEP 6 : Create Connection After transforn data using sqlalchemy we create a connection to database mysql connector. 
 STEP 7 : Filter and process the collected data from the tables depending on the given requirements by using SQL queries and transform the processed data into a DataFrame format.
-STEP 8 : In the .py file, !pip install streamlit, Import streamlit import mysql.connector & import pandas as pd.
+STEP 8 : In the .py file, Import streamlit import mysql.connector & import pandas as pd.
 STEP 9 : Setup the streamlit Page configurations, Sidebar details, Query select box & Enter SQL Connector.
-STEP 10 : Visualization Finally, create a Dashboard by using Streamlit and give dropdown options on the Dashboard to the user and select a question from that menu to analyse the data and 
-          show the output in Dataframe Table.
+STEP 10 : Visualization Finally, create a Dashboard by using Streamlit and give dropdown options on the Dashboard to the user and select a queries from that menu to analyse the data, which is stored in mysql and show the output in Dataframe Table.
 
 # USER GUIDE:
 
-STEP 1 : Data Collection; Search channel_id, copy and paste on the input box and click the get data button to collect data using youtube API key.
+STEP 1 : Data Collection; Search channel_id, copy and paste on the input box and click the get data button to collect data using API key.
 STEP 2 : Data Migrate; By clicking the data migrate buttin we transfer all the datas to local database.
-STEP 3 : Data Visulaization; By using a Drop down select box in stremlit we can get a answer for the 10 queries which is in problem statment.
+STEP 3 : Data Visulaization; By using a Drop down select box in stremlit we can get a answer for the 10 query statment.
 
 # LESSONS LEARNED:
 
