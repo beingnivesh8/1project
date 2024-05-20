@@ -1,22 +1,22 @@
-#Essentials
+#Essential Libraries:
 
 import streamlit as st
 import mysql.connector
 import pandas as pd
 
-#Streamlit
+#Streamlit:
 
 st.set_page_config(layout='wide')
-st.header('1Project', divider='orange')
+st.header('1Project', divider='rainbow')
 st.title("🗃️:blue[Youtube Data Harvesting and Warehousing using SQL & Streamlit]📡")
 
 with st.sidebar:
-    st.header(":violet[Skills Take Away]⤵️")
-    st.write("1️⃣:green[API]✔️")
-    st.write("2️⃣:green[Python Scripting]✔️")
-    st.write("3️⃣:green[Data Collection]✔️")
-    st.write("4️⃣:green[Data Management using SQL]✔️")
-    st.write("5️⃣:green[Streamlit]✔️")
+    st.header("Skills Take Away ⤵️")
+    st.write("1️⃣:grey[API]✔️")
+    st.write("2️⃣:blue[Python Scripting]✔️")
+    st.write("3️⃣:red[Data Collection]✔️")
+    st.write("4️⃣:orange[Data Management using SQL]✔️")
+    st.write("5️⃣:violet[Streamlit]✔️")
 
     query_select=st.selectbox("🔹Queries🔹",("Select your Query",
     "1.What are the names of all the videos and their corresponding channels?",
@@ -28,15 +28,15 @@ with st.sidebar:
     "7.What is the total number of views for each channel, and what are their corresponding channel names?",
     "8.What are the names of all the channels that have published videos in the year 2022?",
     "9.What is the average duration of all videos in each channel, and what are their corresponding channel names?",
-"10.Which videos have the highest number of comments, and what are their corresponding channel names?"))
+    "10.Which videos have the highest number of comments, and what are their corresponding channel names?"))
 
-#SQL Connector
+#SQL Connector:
 
 mydb = mysql.connector.connect(host="localhost",user="root",password="")
 mycursor = mydb.cursor(buffered=True)
 mycursor.execute('USE 1project')
 
-#Queries:
+#Answer for the Queries:
 
 #1
 if query_select=="1.What are the names of all the videos and their corresponding channels?":
