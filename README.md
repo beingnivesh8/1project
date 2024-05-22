@@ -54,7 +54,3 @@ STEP 10 : Visualization Finally, create a Dashboard by using Streamlit and give 
 # LESSONS LEARNED:
 
 API integration, Python scripting, Data Collection, Data Management using SQL, Streamlit.
-
-# LINK:
-
-http://localhost:8501/#youtube-data-harvesting-and-warehousing
