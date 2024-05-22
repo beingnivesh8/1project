@@ -19,10 +19,10 @@
 
 # ESSENTIAL INSTALL & IMPORT LIBRARIES:
 
-!pip install mysql.connector
-!pip install pandas
-!pip install sqlalchemy
-!pip install streamlit
+*!pip install mysql.connector
+*!pip install pandas
+*!pip install sqlalchemy
+*!pip install streamlit
 
 import googleapiclient.discovery
 import mysql.connector
