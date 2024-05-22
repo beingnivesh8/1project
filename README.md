@@ -17,12 +17,7 @@
 
   It has the program streamlit interface and for input a Query to get answers from mysql and display in Streamlit application.
 
-# ESSENTIAL INSTALL & IMPORT LIBRARIES:
-
-!pip install mysql.connector
-#!pip install pandas
-#!pip install sqlalchemy
-#!pip install streamlit
+# ESSENTIAL LIBRARIES:
 
 import googleapiclient.discovery
 import mysql.connector
