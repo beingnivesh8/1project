@@ -19,11 +19,11 @@
 
 # ESSENTIAL LIBRARIES:
 
-import googleapiclient.discovery
-import mysql.connector
-import pandas as pd
-from sqlalchemy import create_engine
-from googleapiclient.errors import HttpError
+import googleapiclient.discovery, 
+import mysql.connector,
+import pandas as pd,
+from sqlalchemy import create_engine,
+from googleapiclient.errors import HttpError and 
 import streamlit as st
 
 # WORK FLOW:
